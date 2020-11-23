@@ -10,5 +10,5 @@ const server = http.createServer(app)
 
 
 server.listen(PORT, () => {
-  console.log(`Server running on port ${PORT} and connecting to ${config.MONGODB_URI}`)
+  console.log(`Server running on port ${PORT}`)
 })

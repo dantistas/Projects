@@ -38,9 +38,7 @@ app.use('/api/blogs', blogsRouter)
 app.use('/api/users', usersRouter)
 app.use('/api/login', loginRouter)
 
-// if (process.env.NODE_ENV === 'test') {
-//    'i dont understand why process.env.NODE_ENV is undefined even if it is defined in package.json scripts section'
-// }
+
 
 const testingRouter = require('./controlers/testing')
   app.use('/api/testing', testingRouter)
